@@ -81,7 +81,7 @@ for tip in sorted(dfv["Tip"].unique()):
 
 # Layout (dark + zoom only)
 fig.update_layout(
-    title="Travian Haritası (Zoom Only)",
+    title="Travian Haritası",
     template="plotly_dark",
     height=850,
     dragmode=False,  # ✅ pan kapalı, sürükleme yok
@@ -130,4 +130,5 @@ st.plotly_chart(
         "displayModeBar": False,   # toolbar yok
         "doubleClick": False
     }
+
 )
